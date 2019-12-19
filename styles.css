@@ -160,7 +160,7 @@ footer a {
   cursor: pointer;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 360px) {
   .welcome nav {
     width: 100%;
   }
