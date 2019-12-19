@@ -60,6 +60,7 @@ h1, h2 {
 }
 
 .welcome h2 {
+  max-width: 8em;
   position: absolute;
   right: var(--edge-spacing);
   top: var(--edge-spacing);
@@ -160,7 +161,7 @@ footer a {
   cursor: pointer;
 }
 
-@media screen and (max-height: 360px) {
+@media screen and (max-height: 450px) {
   .welcome nav {
     width: 100%;
   }
