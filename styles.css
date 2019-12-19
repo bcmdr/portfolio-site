@@ -1,7 +1,7 @@
 :root {
   /** https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
   --heading-size: calc(48px + (112 - 48) * ((100vw - 300px) / (1600 - 300)));
-  --nav-size: calc(32px + (64 - 32) * ((100vw - 300px) / (1600 - 300)));
+  --nav-size: calc(28px + (48 - 28) * ((100vw - 300px) / (1600 - 300)));
   /**/
   --edge-spacing: 2.25rem;
   --red: hsl(360, 63%, 57%);
@@ -97,7 +97,7 @@ h1, h2 {
 }
 
 .welcome nav li {
-  margin: 0.25rem 0.5rem;
+  margin: 0.5rem 1rem;
 }
 
 .welcome nav a {
@@ -158,4 +158,14 @@ footer {
 footer a {
   color: inherit;
   cursor: pointer;
+}
+
+@media screen and (max-height: 600px) {
+  .welcome nav {
+    width: 100%;
+  }
+  .welcome nav ul {
+    border: none;
+    box-shadow: none;
+  }
 }
