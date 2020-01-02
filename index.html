@@ -18,20 +18,20 @@
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="about">
+    <section class="content-section about">
       <a id="about"></a>
       <div class="content">
         <div class="profile-pic__container">
           <div class="profile-pic">
-            <img src="./profile-pic.jpg" />
+            <img src="./images/profile-pic.jpg" />
           </div>
         </div>
-        <div class="profile-description">
+        <article class="description">
           <h2>About</h2>
           <p>
             Hello there! My name is Brett Commandeur and I’m a Designer/Developer
@@ -50,7 +50,25 @@
             From the big screen to the ones we hold in our hands, my mission has
             been to enrich the lives of my audience through passion and intrigue.
           </p>
+        </article>
+      </div>
+    </section>
+    <section class="content-section projects">
+      <a id="projects"></a>
+      <h2 class="section-heading--full">Projects</h2>
+      <div class="content">
+        <div class="project-screenshot__container">
+          <div class="project-screenshot">
+            <img src="./images/godo-screenshot.png" />
+          </div>
         </div>
+        <article class="description">
+          <h3>GoDo</h3>
+          <p>This productivity app lets you list out all the tasks that need your attention and start the ones you'd like to focus on.</p>
+          <p>It times how long the task takes and invites you to focus on it again if needed.</p>
+          <p>It is built with Vue and uses Local Storage to save tasks to your browser.</p>
+          <p>Live Demo: <a href="http://godo.netlify.com">godo.netlify.com</a></p>
+        </article>
       </div>
     </section>
     <footer>Patterns by <a href="https://www.heropatterns.com/">Hero Patterns</a> (<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons By 4.0</a>)</footer>
