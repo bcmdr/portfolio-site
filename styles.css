@@ -227,10 +227,7 @@ footer a {
 } */
 
 @media screen and (prefers-reduced-motion: no-preference) {
-  .main-header h2, 
-  .main-header h1, 
-  .main-header nav ul,
-  section h2, section h3, section img, section p {
+  h1, h2, h3, nav, p, img, hr {
     animation-name: scaleIn;
     animation-duration: 0.7s;
   }
