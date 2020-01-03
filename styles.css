@@ -50,6 +50,11 @@ h3 {
   font-size: 2em;
 }
 
+hr {
+  border-top: 0.5px solid white;
+}
+
+
 .main-header {
   padding-bottom: var(--edge-spacing);
   padding-left: var(--edge-spacing);
@@ -160,6 +165,7 @@ h3 {
 }
 
 .description {
+  min-width: 15em;
   max-width: 25em;
 }
 
@@ -189,8 +195,8 @@ h3 {
 }
 
 .project-screenshot img {
-  height: 500px;
-  width: 75vw;
+  height: 480px;
+  max-width: 480px;
 }
 
 .section-heading--full {
@@ -238,8 +244,8 @@ footer a {
   }
 }
 
-@media screen and (min-width: 65rem) {
+/* @media screen and (min-width: 65em) {
   .project-screenshot img {
     width: 25vw;
   }
-}
+} */
