@@ -6,20 +6,20 @@
     <meta name="description" content="Hello there! My name is Brett Commandeur and I’m a Designer/Developer from Edmonton, AB. I enjoy creating applications for the web using the latest in HTML, CSS, and Javascript.">
     <title>Brett Commandeur</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Kanit:900|Heebo:400,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <div class="title-container">
-        <h1>Brett Commandeur</h1>
-        <h2>Designer / Developer</h2>
+      <div class="title-container white-shadow-box">
+        <h1>Brett<br/>Commandeur</h1>
       </div>
-      <nav>
+      <nav class="white-shadow-box">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="mailto:bcmdr.co@gmail.com">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -32,37 +32,42 @@
           </div>
         </div>
         <article class="description">
-          <h2>About</h2>
-          <p>
-            Hello there! My name is Brett Commandeur and I’m a Designer/Developer
-            from Edmonton, AB.
-          </p>
-          <p>
-            I enjoy creating applications for the web using the latest 
-            in HTML, CSS, and Javascript.
-          </p>
-          <p>
-            I’m currently pursuing my Bachelor of Science degree in Computer Science at the University
-            of Alberta after transferring from Film Production at York University in
-            Toronto, ON.
-          </p>
-          <p>
-            From the big screen to the ones we hold in our hands, my mission has
-            been to enrich the lives of my audience through passion and intrigue.
-          </p>
+          <header class="description__header">
+            <h2>About</h2>
+          </header>
+          <section class="description__body">
+            <p>
+              Hello there! My name is <strong>Brett Commandeur</strong> and I’m a Designer/Developer
+              from Edmonton, AB.
+            </p>
+            <p>
+              I enjoy creating applications for the web using the latest 
+              in <strong>HTML, CSS, and Javascript</strong>, 
+              while making use of frameworks and platforms such as React, Vue, Express, Firebase, and Netlify.
+            </p>
+            <p>
+              I’m currently pursuing my <strong>Bachelor of Science</strong> degree in Computer Science at the University
+              of Alberta after transferring from Film Production at York University in
+              Toronto, ON.
+            </p>
+            <p>
+              From the big screen to the ones we hold in our hands, my mission has
+              been to enrich the lives of my audience through <strong>passion, intrigue and attention to detail.</strong>.
+            </p>
+          </section>
         </article>
       </div>
     </section>
     <section class="content-section projects">
       <a id="projects"></a>
-      <h2 class="section-heading--full">Projects</h2>
+      <h2>Projects</h2>
       <div class="content">
         <div class="project-screenshot__container">
           <div class="project-screenshot">
             <img src="./images/godo-screenshot.png" />
           </div>
         </div>
-        <article class="description">
+        <article class="description description__body">
           <h3>GoDo</h3>
           <p>This productivity app lets you list out all the tasks that need your attention and start the ones you'd like to focus on.</p>
           <p>It times how long the task takes and invites you to focus on it again if needed.</p>
@@ -77,7 +82,7 @@
             <img src="./images/orchard-screenshot.png" />
           </div>
         </div>
-        <article class="description">
+        <article class="description description__body">
           <h3>Orchard</h3>
           <p>This wellness app lets you list daily goals you'd like to accomplish and mark them as 'done' as you complete them.</p>
           <p>It tracks how many days you've completed each goal, resetting their statuses each day.</p>
@@ -92,7 +97,7 @@
             <img src="./images/popcorn-screenshot.png" />
           </div>
         </div>
-        <article class="description">
+        <article class="description description__body">
           <h3>PopCorn</h3>
           <p>This entertainment app lets you track your movies by marking them as 'interested', 'seen', or 'favourite'.</p>
           <p>It searches <a href="https://www.themoviedb.org/">The Movie Database</a> to showcase the title, year and poster of movies you may like to track.</p>
