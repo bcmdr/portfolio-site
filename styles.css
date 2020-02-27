@@ -170,7 +170,7 @@ hr {
 .content-section .content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
